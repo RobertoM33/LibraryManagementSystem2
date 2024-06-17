@@ -1,0 +1,6 @@
+@LibraryManagementSystem.Tests.csproj_HostAddress = http://localhost:5298
+
+GET {{LibraryManagementSystem.Tests.csproj_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -4,8 +4,25 @@
     {
     Fiction,
     Science,
-    Fantasy
-}
+    Fantasy,
+    Novel,
+    Dystopian,
+    Romance,
+    Biography,
+    Adventure,
+    Society,
+    TimeInc,
+    TheEconomistGroup,
+    ForbesMedia,
+    CondéNast,
+    MeredithCorporation,
+    ReedBusinessInformation,
+    TrustedMediaBrands
+
+
+
+
+    }
 
 public enum Status
 {

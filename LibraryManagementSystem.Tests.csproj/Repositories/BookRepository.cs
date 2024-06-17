@@ -13,7 +13,9 @@ namespace LibraryManagementSystem.Repositories
         {
             _connectionString = connectionString;
         }
-        
+        //using var connection = new SqlConnection(_connectionString);
+        //var query = "INSERT INTO Automobiliai (Marke, Modelis, Metai, RegistracijosNumeris) OUTPUT INSERTED.Id VALUES (@Marke, @Modelis, @Metai, @RegistracijosNumeris)";
+        //return await connection.QuerySingle<int>(query, automobilis);
         public async Task AddBookAsync(Book book)
         {
             using var connection = new SqlConnection(_connectionString);
